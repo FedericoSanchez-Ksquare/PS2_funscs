@@ -1,0 +1,190 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: #e3e6eb;
+}
+.container {
+  height: 85%;
+  position: absolute;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95%;
+  width: 40%;
+  margin: auto;
+  flex: 1;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 95%;
+  width: 40%;
+  margin: auto;
+  flex: 1;
+  background-image: url("images/istockphoto-1225431134-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+.inner-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.form-space {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  margin-bottom: 30px;
+  overflow: hidden;
+
+}
+.review-space{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 80%;  
+  height: fit-content;
+  max-height: 400px;
+  margin-bottom: 10%;
+  overflow: hidden;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.541);
+
+  border-radius: 10px;
+}
+.review{
+  display: flex;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.808);
+  margin: 20px;
+  
+}
+.user{
+  display: flex;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.808);
+  margin:15px;
+}
+.title{
+  display: flex;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.808);
+  margin:15px;
+}
+.place{
+  display: flex;
+  font-size: 13px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.808);
+  margin:0 0 15px 16px;
+}
+button{
+  padding: 10px;
+  margin: 20px 0 ;
+  font-weight: bolder;
+  font-size: 13px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-color: #111727;
+  width: auto;
+}
+label{
+  color: #111727;
+  margin: 10px 0;
+}
+.label-section{
+  display: flex;
+  justify-content: center;
+}
+.welcome-main{
+  font-weight: bolder;
+  font-size: 33px;
+}
+.welcome-message{
+  font-size: 14px;
+  color: gray;
+}
+
+.email-label{
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+.pass-label{
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+.no-account{
+  font-size: 12px;
+  margin-left: 30px;
+  color: gray;
+}
+
+.sign-up{
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: bolder;
+  /* border-image: url("images/kindpng_1128102.png");
+  border-image-slice: 90;
+  border-image-width: 10px;
+
+  border-image-repeat: stretch; */
+
+
+
+}
+
+.forgot{
+  font-size: 13px;
+  margin-left: 50px;
+  
+  font-weight: bolder;
+}
+
+
+.remember{
+  font-size: 13px;
+}
+.email-input{
+  padding: 10px;
+  margin: 2px 0;
+  border-style:solid;
+  border-radius: 10px;
+  width: auto;
+}
+.password-input{
+  padding: 10px;
+  margin-bottom: 20px;
+  border-style:solid;
+  border-radius: 10px;
+  width: auto;
+}
